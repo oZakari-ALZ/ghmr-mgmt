@@ -49,7 +49,7 @@ on:
 
 jobs:
   plan_and_apply:
-    uses: oZakari-ALZ/ghmr-mgmt-templates/.github/workflows/cd-template.yaml@main
+    uses: oZakari-ALZ/ghmr-mgmt/.github/workflows/cd-template.yaml@main
     name: 'CD'
     permissions:
       id-token: write

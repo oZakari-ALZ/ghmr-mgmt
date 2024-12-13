@@ -8,7 +8,7 @@ on:
 
 jobs:
   validate_and_plan:
-    uses: oZakari-ALZ/ghmr-mgmt-templates/.github/workflows/ci-template.yaml@main
+    uses: oZakari-ALZ/ghmr-mgmt/.github/workflows/ci-template.yaml@main
     name: 'CI'
     permissions:
       id-token: write
